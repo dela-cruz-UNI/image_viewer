@@ -15,6 +15,10 @@ bool BitmapImage::load(std::string name) {
     return false;
 }
 
+bool save(std:: string name){
+    return true;
+}
+
 BitmapImage::~BitmapImage() {
     delete[] buffer;
 }
